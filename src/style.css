@@ -5,4 +5,9 @@
 }
 .wp-block-gutentitan-gutentitan-static h1 {
 	color: white;
+	text-align: center;
+}
+.wp-block-gutentitan-gutentitan-static .location {
+	font-style: italic;
+	text-align: right;
 }

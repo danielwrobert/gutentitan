@@ -27,7 +27,11 @@ registerBlockType(
 				<div className={ className }>
 					<h1>Welcome to The Black Order!</h1>
 					<img src={ buildPath + Thanos } alt="Thanos"/>
-					<p>You're in the Editor.</p>
+					<blockquote>
+						<p>With all six stones, I can simply snap my fingers, they would all cease to exist. I call that mercy.</p>
+						<footer>- Thanos</footer>
+					</blockquote>
+					<p className="location"><small>You're in the Editor</small></p>
 				</div>
 			);
 		},
@@ -37,7 +41,11 @@ registerBlockType(
 				<div className={ className }>
 					<h1>Welcome to The Black Order!</h1>
 					<img src={ buildPath + Thanos } alt="Thanos"/>
-					<p>You're on the Front End.</p>
+					<blockquote>
+						<p>With all six stones, I can simply snap my fingers, they would all cease to exist. I call that mercy.</p>
+						<footer>- Thanos</footer>
+					</blockquote>
+					<p className="location"><small>You're on the Front End</small></p>
 				</div>
 			);
 		}
