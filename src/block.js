@@ -13,7 +13,7 @@ import style from './style.css';
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 
-const buildPath = `${ plugindata.url }/`;
+const buildPath = `${  plugindata.url  }/`;
 
 /**
  * Register block
