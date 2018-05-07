@@ -27,7 +27,10 @@
 				"argsIgnorePattern": "res|next|^err"
 			}
 		],
-		"arrow-body-style": [2, "as-needed"],
+		"arrow-body-style": [
+			2,
+			"as-needed"
+		],
 		"no-unused-expressions": [
 			2,
 			{
@@ -46,11 +49,26 @@
 		"import": 0,
 		"func-names": 0,
 		"space-before-function-paren": 0,
-		"block-spacing": [2, "always"],
-		"space-in-parens": [2, "always"],
-		"object-curly-spacing": [2, "always"],
-		"template-curly-spacing": [2, "always"],
-		"array-bracket-spacing": [2, "always"],
+		"block-spacing": [
+			2,
+			"always"
+		],
+		"space-in-parens": [
+			2,
+			"always"
+		],
+		"object-curly-spacing": [
+			2,
+			"always"
+		],
+		"template-curly-spacing": [
+			2,
+			"always"
+		],
+		"array-bracket-spacing": [
+			2,
+			"always"
+		],
 		"comma-dangle": 0,
 		"max-len": 0,
 		"import/extensions": 0,
@@ -61,7 +79,10 @@
 		"react/prefer-stateless-function": 0,
 		"react/forbid-prop-types": 0,
 		"react/no-unescaped-entities": 0,
-		"react/jsx-curly-spacing": [2, "always"],
+		"react/jsx-curly-spacing": [
+			2,
+			"always"
+		],
 		"react/jsx-filename-extension": [
 			1,
 			{
