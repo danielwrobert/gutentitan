@@ -13,12 +13,12 @@ defined( 'ABSPATH' ) || exit;
 
 function gutentitan_enqueue_block_editor_assets() {
 	wp_enqueue_script(
-		'gutentitan-static',
+		'gutentitan-quotes',
 		plugins_url( 'build/block.js', __FILE__ ),
 		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'underscore' ),
 		filemtime( plugin_dir_path( __FILE__ ) . 'build/block.js' )
 	);
-	wp_localize_script( 'gutentitan-static', 'plugindata', array(
+	wp_localize_script( 'gutentitan-quotes', 'plugindata', array(
 		'url' => plugins_url( 'build', __FILE__ ),
 	) );
 }
@@ -26,7 +26,7 @@ add_action( 'enqueue_block_editor_assets', 'gutentitan_enqueue_block_editor_asse
 
 function gutenberg_enqueue_block_assets() {
 	wp_enqueue_style(
-		'gutentitan-static',
+		'gutentitan-quotes',
 		plugins_url( 'build/style.css', __FILE__ ),
 		array( 'wp-blocks' ),
 		filemtime( plugin_dir_path( __FILE__ ) . 'build/style.css' )

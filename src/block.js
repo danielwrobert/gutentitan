@@ -37,7 +37,7 @@ const quotes = {
 /**
  * Register block
  */
-registerBlockType( 'gutentitan/gutentitan-static', {
+registerBlockType( 'gutentitan/gutentitan-quotes', {
 	title: __( 'Gutentitan' ),
 	icon: 'admin-site',
 	category: 'layout',

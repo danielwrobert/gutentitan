@@ -1,16 +1,16 @@
-.wp-block-gutentitan-gutentitan-static {
+.wp-block-gutentitan-gutentitan-quotes {
 	background: black;
 	padding: 20px;
 	color: white;
 }
-.wp-block-gutentitan-gutentitan-static h1 {
+.wp-block-gutentitan-gutentitan-quotes h1 {
 	color: white;
 	text-align: center;
 }
-.wp-block-gutentitan-gutentitan-static .location {
+.wp-block-gutentitan-gutentitan-quotes .location {
 	font-style: italic;
 	text-align: right;
 }
-.wp-block-gutentitan-gutentitan-static .quotes {
+.wp-block-gutentitan-gutentitan-quotes .quotes {
 	max-width: 100%;
 }
